@@ -1,0 +1,53 @@
+{
+  "dataset_sha256": "9f53027065840672e77303281289988371d4a6b67c7dcd3bd4e6306a2a263dc8",
+  "rows": 90189,
+  "primary_metric": "retention_7",
+  "contrast": "treatment - control",
+  "alpha": 0.05,
+  "alternative": "two-sided",
+  "test": "two-sample proportions z-test, pooled variance",
+  "ci_method": "Newcombe",
+  "groups": {
+    "control": {
+      "n": 44700,
+      "retained": 8502,
+      "rate": 0.19020134228187918
+    },
+    "treatment": {
+      "n": 45489,
+      "retained": 8279,
+      "rate": 0.18200004396667327
+    }
+  },
+  "z_statistic": -3.164358912748191,
+  "p_value": 0.0015542499756143289,
+  "absolute_effect": -0.008201298315205913,
+  "effect_pp": -0.8201298315205913,
+  "relative_lift": -0.043119034896460164,
+  "ci_95_absolute": [
+    -0.013281940871914845,
+    -0.00312130268876128
+  ],
+  "effect_per_10000": -82.01298315205912,
+  "ci_95_effect_per_10000": [
+    -132.81940871914844,
+    -31.213026887612802
+  ],
+  "srm_expected_allocation": [
+    0.5,
+    0.5
+  ],
+  "srm_p_value": 0.008607987810836243,
+  "srm_alpha": 0.01,
+  "srm_flag_under_50_50": true,
+  "inference_status": "provisional_pending_srm_review",
+  "recommendation": "Сохранить текущий вариант control и отложить внедрение treatment. Сначала проверить плановые доли трафика, рандомизацию и полноту событий: обнаружен сигнал SRM при допущении 50/50.",
+  "python_version": "3.9.6",
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.3",
+    "scipy": "1.13.1",
+    "statsmodels": "0.14.4",
+    "matplotlib": "3.9.4"
+  }
+}

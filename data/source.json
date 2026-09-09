@@ -1,0 +1,11 @@
+{
+  "name": "Cookie Cats A/B test",
+  "downloaded_on": "2026-09-09",
+  "origin": "DataCamp educational project; distribution described by Kaggle data card",
+  "data_card": "https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats",
+  "download_url": "https://raw.githubusercontent.com/sevvalnrdede/AB-Test-Analysis-Mobile-Game-Gate-Placement/ab9c6de8a38bb36fa6a155ca93bb07dab292c632/cookie_cats.csv",
+  "commit": "ab9c6de8a38bb36fa6a155ca93bb07dab292c632",
+  "sha256": "9f53027065840672e77303281289988371d4a6b67c7dcd3bd4e6306a2a263dc8",
+  "bytes": 2797485,
+  "transformations": "None. Original CSV preserved; group mapping performed in notebook."
+}
